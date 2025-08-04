@@ -11,11 +11,57 @@ CREATE TABLE LocationInfo (
 
 
 INSERT INTO LocationInfo (country, code, city, state, activate, createdBy, createdOn) VALUES
--- India
 ('India', 'IN001', 'Mumbai', 'Maharashtra', 'Y', 'admin', CURDATE()),
 ('India', 'IN002', 'Delhi', 'Delhi', 'Y', 'admin', CURDATE()),
 ('India', 'IN003', 'Bangalore', 'Karnataka', 'Y', 'admin', CURDATE()),
--- (… Add other records …)
--- Australia
+('India', 'IN004', 'Chennai', 'Tamil Nadu', 'N', 'admin', CURDATE()),
+('India', 'IN005', 'Pune', 'Maharashtra', 'Y', 'admin', CURDATE()),
+('India', 'IN006', 'Kolkata', 'West Bengal', 'Y', 'admin', CURDATE()),
+('India', 'IN007', 'Hyderabad', 'Telangana', 'Y', 'admin', CURDATE()),
+('India', 'IN008', 'Ahmedabad', 'Gujarat', 'Y', 'admin', CURDATE()),
+('India', 'IN009', 'Surat', 'Gujarat', 'Y', 'admin', CURDATE()),
+('India', 'IN010', 'Jaipur', 'Rajasthan', 'N', 'admin', CURDATE()),
+
+('USA', 'US001', 'New York', 'New York', 'Y', 'admin', CURDATE()),
+('USA', 'US002', 'Los Angeles', 'California', 'Y', 'admin', CURDATE()),
+('USA', 'US003', 'Chicago', 'Illinois', 'Y', 'admin', CURDATE()),
+('USA', 'US004', 'Houston', 'Texas', 'Y', 'admin', CURDATE()),
+('USA', 'US005', 'Phoenix', 'Arizona', 'N', 'admin', CURDATE()),
+('USA', 'US006', 'Philadelphia', 'Pennsylvania', 'Y', 'admin', CURDATE()),
+('USA', 'US007', 'San Antonio', 'Texas', 'Y', 'admin', CURDATE()),
+('USA', 'US008', 'San Diego', 'California', 'Y', 'admin', CURDATE()),
+('USA', 'US009', 'Dallas', 'Texas', 'Y', 'admin', CURDATE()),
+('USA', 'US010', 'San Jose', 'California', 'Y', 'admin', CURDATE()),
+
+('Germany', 'DE001', 'Berlin', 'Berlin', 'Y', 'admin', CURDATE()),
+('Germany', 'DE002', 'Munich', 'Bavaria', 'Y', 'admin', CURDATE()),
+('Germany', 'DE003', 'Hamburg', 'Hamburg', 'N', 'admin', CURDATE()),
+('Germany', 'DE004', 'Cologne', 'North Rhine-Westphalia', 'Y', 'admin', CURDATE()),
+('Germany', 'DE005', 'Frankfurt', 'Hesse', 'Y', 'admin', CURDATE()),
+('Germany', 'DE006', 'Stuttgart', 'Baden-Württemberg', 'Y', 'admin', CURDATE()),
+('Germany', 'DE007', 'Düsseldorf', 'North Rhine-Westphalia', 'N', 'admin', CURDATE()),
+('Germany', 'DE008', 'Dresden', 'Saxony', 'Y', 'admin', CURDATE()),
+('Germany', 'DE009', 'Leipzig', 'Saxony', 'Y', 'admin', CURDATE()),
+('Germany', 'DE010', 'Bremen', 'Bremen', 'Y', 'admin', CURDATE()),
+
+('Canada', 'CA001', 'Toronto', 'Ontario', 'Y', 'admin', CURDATE()),
+('Canada', 'CA002', 'Vancouver', 'British Columbia', 'Y', 'admin', CURDATE()),
+('Canada', 'CA003', 'Montreal', 'Quebec', 'N', 'admin', CURDATE()),
+('Canada', 'CA004', 'Calgary', 'Alberta', 'Y', 'admin', CURDATE()),
+('Canada', 'CA005', 'Edmonton', 'Alberta', 'Y', 'admin', CURDATE()),
+('Canada', 'CA006', 'Ottawa', 'Ontario', 'Y', 'admin', CURDATE()),
+('Canada', 'CA007', 'Quebec City', 'Quebec', 'Y', 'admin', CURDATE()),
+('Canada', 'CA008', 'Winnipeg', 'Manitoba', 'Y', 'admin', CURDATE()),
+('Canada', 'CA009', 'Hamilton', 'Ontario', 'N', 'admin', CURDATE()),
+('Canada', 'CA010', 'Victoria', 'British Columbia', 'Y', 'admin', CURDATE()),
+
+('Australia', 'AU001', 'Sydney', 'New South Wales', 'Y', 'admin', CURDATE()),
+('Australia', 'AU002', 'Melbourne', 'Victoria', 'Y', 'admin', CURDATE()),
+('Australia', 'AU003', 'Brisbane', 'Queensland', 'N', 'admin', CURDATE()),
+('Australia', 'AU004', 'Perth', 'Western Australia', 'Y', 'admin', CURDATE()),
+('Australia', 'AU005', 'Adelaide', 'South Australia', 'Y', 'admin', CURDATE()),
+('Australia', 'AU006', 'Canberra', 'ACT', 'Y', 'admin', CURDATE()),
+('Australia', 'AU007', 'Hobart', 'Tasmania', 'Y', 'admin', CURDATE()),
+('Australia', 'AU008', 'Darwin', 'Northern Territory', 'Y', 'admin', CURDATE()),
 ('Australia', 'AU009', 'Gold Coast', 'Queensland', 'Y', 'admin', CURDATE()),
 ('Australia', 'AU010', 'Newcastle', 'New South Wales', 'N', 'admin', CURDATE());
